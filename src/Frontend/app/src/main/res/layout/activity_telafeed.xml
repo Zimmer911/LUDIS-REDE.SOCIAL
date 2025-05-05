@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#b6abce"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:background="#191970">
+
+        <Button
+            android:id="@+id/btnpostagem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nova Postagem"
+            android:backgroundTint="@color/black"
+            android:layout_centerInParent="true" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            app:srcCompat="@drawable/logocerto" />
+
+        <ImageView
+            android:id="@+id/imageEngrenagem"
+            android:layout_width="39dp"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/engrenagem"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="15dp"/>
+
+
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewPosts"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+</LinearLayout>
