@@ -6,13 +6,7 @@
 
 # Ludis - Plataforma
 
-## Grupo 5
-
-## Integrantes: <a href="/">Aleff Souza</a>, <a href="/">Cláudio Endo</a>, <a href="/">Matheus Morais Zimmer</a> e <a href="/">Luis Felipe Torelli Sparrapan</a>
-
-## Professores Orientadores: <a href="https://www.linkedin.com/in/victorbarq/"> Vinicius Heltai</a> e <a href="https://github.com/VictorRosetti">Victor Rosetti</a>
-
-## 💬 Descrição do Projeto
+## 💬 Descrição
 <p align="center">
     <img src="https://ibb.co/wp5ThMD" alt="Ludis" border="0" width="350px" height="275px">
   </p>
